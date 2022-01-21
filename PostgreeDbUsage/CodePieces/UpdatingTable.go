@@ -8,7 +8,7 @@ import (
 )
 
 func UpdatingTable() {
-	//storing the info to acess the DB
+	//storing the info to access the DB
 	psqlInfo := fmt.Sprintf("host=%s port=%d user=%s "+
 		"password=%s dbname=%s sslmode=disable",
 		DbInfo.Host, DbInfo.Port, DbInfo.User, DbInfo.Password, DbInfo.Dbname)
